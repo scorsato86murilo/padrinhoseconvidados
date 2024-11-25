@@ -1,3 +1,21 @@
-h1{
-    color: red;
+body {
+    display: flex;               /* Aplica o flexbox ao body */
+    justify-content: center;     /* Centraliza o conteúdo horizontalmente */
+    align-items: center;         /* Centraliza o conteúdo verticalmente */
+    height: 100vh;               /* Garante que o corpo ocupe a altura total da janela */
+    margin: 0;                   /* Remove a margem padrão do body */
+    background-color: #f0f0f0;   /* Cor de fundo (exemplo de cinza claro) */
+}
+
+
+.titulo h1 {
+    text-align: center;          /* Centraliza o texto horizontalmente */
+    font-family: 'Arial', sans-serif; /* Fonte agradável e legível */
+    font-size: 36px;             /* Tamanho da fonte */
+    font-weight: bold;           /* Deixa a fonte em negrito */
+    color: #333;                 /* Cor escura para o texto */
+    margin: 0;                   /* Remove margens extras */
+    padding: 20px;               /* Espaço ao redor do texto */
+    text-transform: uppercase;   /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px;         /* Espaçamento entre as letras */
 }
