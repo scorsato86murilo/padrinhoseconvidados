@@ -1,3 +1,98 @@
-h1{
-    color:red;
+/* index.css */
+
+/* Estilo base da página */
+body {
+    background-color: #fef8e4; /* Fundo amarelo suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor de texto padrão */
+}
+
+/* Título principal */
+.titulo {
+    font-size: 42px;
+    font-weight: 600;
+    color: #3b9e9f; /* Verde água pastel */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Linha de separação */
+hr {
+    border: none;
+    border-top: 2px solid #cfd8c2; /* Linha de separação verde claro */
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Estilo do formulário */
+.formulario {
+    background-color: #ffffff; /* Fundo branco para destaque */
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos campos do formulário */
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #4a4a4a; /* Cor do texto do rótulo */
+}
+
+.campo input[type="email"],
+.campo input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d3d3d3; /* Borda cinza claro */
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.campo input[type="email"]:focus,
+.campo input[type="password"]:focus {
+    border-color: #3b9e9f; /* Borda verde água ao focar */
+    outline: none;
+}
+
+/* Estilo dos botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes input[type="submit"] {
+    background-color: #f5b74e; /* Laranja pastel */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botoes input[type="submit"]:hover {
+    background-color: #e2942f;
+}
+
+.botoes a {
+    color: #3b9e9f; /* Cor do link verde água */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.botoes a:hover {
+    color: #2f7f7f; /* Verde água um pouco mais escuro */
 }
